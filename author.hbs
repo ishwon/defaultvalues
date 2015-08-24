@@ -1,0 +1,28 @@
+{{!< default}}
+
+{{#author}}
+
+
+    <section class="author">
+        {{#if image}}
+        <figure class="author__image">
+            <img src={{image}} />
+        </figure>
+        {{/if}}
+        <h1 class="author__title">{{name}}</h1>
+        <div class="author__meta">
+            {{#if location}}<span class="author__location">{{location}}</span>{{/if}},
+            {{#if website}}<span class="author__link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+        </div>
+        {{#if bio}}
+            <h2 class="author__bio">{{bio}}</h2>
+        {{/if}}
+        <div class="clearfix"></div>
+        <hr>
+    </section>
+{{/author}}
+
+<main class="content" role="main">
+    {{> "loop"}}
+
+</main>

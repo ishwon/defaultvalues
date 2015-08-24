@@ -1,0 +1,38 @@
+{{!< default}}
+{{^is "paged"}}
+    <div class="tag__header">
+        <h1>{{tag.name}}<br><span> A {{pagination.total}}-post collection</span></h1>
+    </div>
+    <div class="tag__description">
+    <p>
+    {{#if tag.description}}
+        {{tag.description}}
+    {{/if}}
+    </p>
+    </div>
+{{/is}}
+
+<main class="content" role="main">
+    {{#foreach posts}}
+    <article class="{{post_class}} list">
+            <h1 class="post__title"><a href="{{url}}">{{{title}}}</a></h1>
+            <section class="post__meta">
+                <p>Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+
+            </section>
+        <section class="post__excerpt">
+            <p>{{excerpt words="35"}} <br>
+             <a class="read-more" href="{{url}}">Read More &rsaquo;</a> </p>
+        </section>
+    </article>
+    <hr>
+{{/foreach}}
+{{#if pagination.prev}}
+  {{pagination}}
+{{else}}
+{{#if pagination.next}}
+{{pagination}}
+{{/if}}
+{{/if}}
+
+</main>

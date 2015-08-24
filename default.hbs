@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="google-site-verification" content="T74N45nDZ-ESOx7tKtzhpXN1devWQy-s6q1wnLWNIM0" />
+    <meta name="msvalidate.01" content="A23DA3B6777EDB752FB537E8C4F58BBB" />
+
+    {{>google-analytics}}
+
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100italic,100,400italic,700,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
+
+
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+    <!--[if lt IE 7]>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <header class="clearfix">
+            <a href="/" class="header__logo">{{@blog.title}}<br><span>Excerpts from a sysadmin's journal</a>
+            <nav class="header_nav">
+                {{navigation}}
+            </nav>
+       
+        </header>
+        <div class="col_8">
+             {{{body}}}
+        </div>
+        <aside class="col_4">
+            <div class="description clearfix">
+            {{#if @blog.logo}}
+                 <a class="description__logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
+            {{/if}}
+            <p class="description__text">{{@blog.description}}</p>
+            </div>
+            <div class="widget">
+	    <a class="twitter-timeline" href="https://twitter.com/IshSookun" data-widget-id="463948869953265664">Tweets by @IshSookun</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+        </aside>
+    </div>
+    <footer class="footer clearfix">
+                <a class="icon-twitter socials" href="https://twitter.com/IshSookun">
+                </a>
+                <a class="icon-facebook socials" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                </a>
+                <a class="icon-feed socials" href="http://defaulvalues.io/rss/"></a>
+                <section class="copyright"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">defaultvalues.io</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://hacklog.in/about" property="cc:attributionName" rel="cc:attributionURL">Ish Sookun</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a> <br>
+                Theme by <a href="http://echdee.me">Humeira Diljore </a>
+                </section>
+        </div>
+
+    </footer>
+
+
+
+
+    {{ghost_foot}}
+
+    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/script.js"}}"></script>
+
+</body>
+</html>

@@ -1,18 +1,13 @@
 {{!< default}}
 
 {{#post}}
-
+{{>facebook-comment}}
 
 
 <main class="content" role="main">
     <article class="{{post_class}}">
 
               <h1 class="post__title">{{title}}</h1>
-               {{#if image}}
-                <div>
-                    <img src="{{image}}">
-                </div>
-             {{/if}}
              <section class="post__meta">
                 <p>Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}} 
 	    {{!>adsense}}
@@ -30,6 +25,8 @@
                 <li><a class="symbol" href="https://plus.google.com/share?url={{url absolute="true"}}"
                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">circlegoogleplus</a></li>
              </ul>
+	     
+	     <div class="fb-comments" data-href="http://defaultvalues.io" data-numposts="10" width="100%"></div>
         </section>
     </article>
 </main>

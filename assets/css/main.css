@@ -972,6 +972,7 @@ a.symbol {
 .post .post-content ol .footer li,
 .footer .post .post-content ul li,
 .post .post-content ul .footer li {
+    color: #fff;
     font-family: "Lato", sans-serif, Helvetica, sans-serif
 }
 

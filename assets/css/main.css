@@ -630,7 +630,7 @@ header .header_nav li:last-child {
 .post .post-content ol .post__meta li,
 .post__meta .post .post-content ul li,
 .post .post-content ul .post__meta li {
-    font-family: 'Lora', 'Times New Roman', serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-size: 0.875rem;
     color: #060606;

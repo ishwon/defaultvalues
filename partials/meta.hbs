@@ -1,0 +1,58 @@
+{{!-- Tested on Ghost 0.5.7. --}}
+{{!-- IMPORTANT! Some things are more likely to work in a different way in future versions of Ghost. Check the documentation --}}
+{{#is "index, tag, author"}} {{!-- Meta for index, tag and author contexts --}}
+{{#is "index"}}
+<title>{{@blog.title}}</title>
+<meta name="description" content="{{@blog.description}}"/>
+<meta property="og:title" content="{{@blog.title}}"/>
+<meta itemprop="name" content="{{@blog.title}}"/>
+{{/is}}
+{{#is "tag"}}
+<title>Posts with tag “{{tag.name}}” — {{@blog.title}}</title>
+<meta name="description" content="{{@blog.description}}"/>
+<meta property="og:title" content="Posts with tag “{{tag.name}}” — {{@blog.title}}"/>
+<meta itemprop="name" content="Posts with tag “{{tag.name}}” — {{@blog.title}}"/>
+{{/is}}
+{{#is "author"}}
+<title>Posts by {{author.name}} — {{@blog.title}}</title>
+<meta name="description" content="{{@blog.description}}"/>
+<meta property="og:title" content="Posts by {{author.name}} — {{@blog.title}}"/>
+<meta itemprop="name" content="Posts by {{author.name}} — {{@blog.title}}"/>
+{{/is}}
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="{{@blog.title}}"/>
+<meta property="og:url" content="{{@blog.url}}{{{relativeUrl}}}"/>
+<meta property="og:description" content="{{@blog.description}}"/>
+<meta itemprop="description" content="{{@blog.description}}"/>
+{{#if @blog.cover}}
+<meta property="og:image" content="{{@blog.url}}{{@blog.cover}}"/>
+<link rel="image_src" href="{{@blog.url}}{{@blog.cover}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
+{{/if}}
+{{/is}} {{!-- End of index, tag and author contexts --}}
+{{#is "post, page"}} {{!--  Meta for post and page contexts --}}
+<title>{{meta_title}} — {{@blog.title}}</title>
+<meta itemprop="name" content="{{meta_title}} — {{@blog.title}}"/>
+{{#if post.meta_description }}
+<meta name="description" content="{{meta_description}}"/>
+<meta itemprop="description" content="{{meta_description}}"/>
+{{else}}
+{{#post}}
+<meta name="description" content="{{excerpt words="27"}}…"/>
+<meta itemprop="description" content="{{excerpt words="27"}}…"/>
+{{/post}}
+{{/if}}
+{{#post}}
+{{#if image}}
+<meta property="og:image" content="{{@blog.url}}{{image}}"/>
+<link rel="image_src" href="{{@blog.url}}{{image}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{image}}"/>
+{{else}}
+{{#if @blog.cover}}
+<meta property="og:image" content="{{@blog.url}}{{@blog.cover}}"/>
+<link rel="image_src" href="{{@blog.url}}{{@blog.cover}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
+{{/if}}
+{{/if}}
+{{/post}}
+{{/is}} {{!--  End of post and page contexts --}}

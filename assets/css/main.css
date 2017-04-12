@@ -960,7 +960,7 @@ a.symbol {
 .footer {
     width: 100%;
     background: #076351;
-    color: #f9f9f9;
+    color: #fff;
     text-align: center;
     font-weight: 300;
     padding: 15px 0px;
@@ -980,19 +980,17 @@ a.symbol {
     text-decoration: none;
     margin-right: 20px;
     margin-right: 1.25rem;
-    color: #f9f9f9;
     font-size: 27px;
     font-size: 1.6875rem
 }
 
 .footer .copyright {
-    color: #fff;
     margin: 10px 0px;
     margin: 0.625rem 0rem
 }
 
 .footer a {
-    color: #b4d0ca;
+    color: #fff;
     text-decoration: none
 }
 

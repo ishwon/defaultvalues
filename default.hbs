@@ -25,6 +25,32 @@
 	<meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
 	{{/if}}
 	{{/is}}
+{{#is "post, page"}} {{!--  Meta for post and page contexts --}}
+<title>{{meta_title}} — {{@blog.title}}</title>
+<meta itemprop="name" content="{{meta_title}} — {{@blog.title}}"/>
+{{#if post.meta_description }}
+<meta name="description" content="{{meta_description}}"/>
+<meta itemprop="description" content="{{meta_description}}"/>
+{{else}}
+{{#post}}
+<meta name="description" content="{{excerpt words="27"}}…"/>
+<meta itemprop="description" content="{{excerpt words="27"}}…"/>
+{{/post}}
+{{/if}}
+{{#post}}
+{{#if image}}
+<meta property="og:image" content="{{@blog.url}}{{image}}"/>
+<link rel="image_src" href="{{@blog.url}}{{image}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{image}}"/>
+{{else}}
+{{#if @blog.cover}}
+<meta property="og:image" content="{{@blog.url}}{{@blog.cover}}"/>
+<link rel="image_src" href="{{@blog.url}}{{@blog.cover}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
+{{/if}}
+{{/if}}
+{{/post}}
+{{/is}} {{!--  End of post and page contexts --}}
 	{{ghost_head}}
 
     {{>google-analytics}}

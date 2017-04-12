@@ -84,7 +84,6 @@ time,
 mark,
 audio,
 video {
-    color: #333;
     margin: 0;
     padding: 0;
     border: 0;
@@ -962,6 +961,7 @@ a.symbol {
     color: #fff;
     text-align: center;
     font-weight: 300;
+    font-family: "Lato", sans-serif, Helvetica, sans-serif;
     padding: 15px 0px;
     padding: 0.9375rem 0rem
 }

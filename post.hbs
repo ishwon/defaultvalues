@@ -9,7 +9,7 @@
 
               <h1 class="post__title">{{title}}</h1>
              <section class="post__meta">
-                <p>Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}} 
+                <p>Posted by {{#primary_author}}<a href="{{url}}">{{name}}</a>{{/primary_author}} on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}} 
             </section>
             <section class="post-content">
                 {{content}}
@@ -22,11 +22,9 @@
                 <li><a class="symbol" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">circletwitterbird</a></li>
                 <li><a class="symbol" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">circlefacebook</a></li>
-                <li><a class="symbol" href="https://plus.google.com/share?url={{url absolute="true"}}"
-                  onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">circlegoogleplus</a></li>
-             </ul>
+                             </ul>
      
-	     <div class="fb-comments" data-href="https://hacklog.mu{{url}}" data-numposts="10" width="100%"></div>
+	     <div class="fb-comments" data-href="https://sysadmin-journal.com{{url}}" data-numposts="10" width="100%"></div>
         </section>
     </article>
 </main>

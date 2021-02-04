@@ -24,10 +24,10 @@
 <meta property="og:url" content="{{@blog.url}}{{{relativeUrl}}}"/>
 <meta property="og:description" content="{{@blog.description}}"/>
 <meta itemprop="description" content="{{@blog.description}}"/>
-{{#if @blog.cover}}
-<meta property="og:image" content="{{@blog.url}}{{@blog.cover}}"/>
-<link rel="image_src" href="{{@blog.url}}{{@blog.cover}}"/>
-<meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
+{{#if @site.cover_image}}
+<meta property="og:image" content="{{@blog.url}}{{@site.cover_image}}"/>
+<link rel="image_src" href="{{@blog.url}}{{@site.cover_image}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{@site.cover_image}}"/>
 {{/if}}
 {{/is}} {{!-- End of index, tag and author contexts --}}
 {{#is "post, page"}} {{!--  Meta for post and page contexts --}}
@@ -43,15 +43,15 @@
 {{/post}}
 {{/if}}
 {{#post}}
-{{#if image}}
-<meta property="og:image" content="{{@blog.url}}{{image}}"/>
-<link rel="image_src" href="{{@blog.url}}{{image}}"/>
-<meta itemprop="image" content="{{@blog.url}}{{image}}"/>
+{{#if feature_image}}
+<meta property="og:image" content="{{@blog.url}}{{img_url}}"/>
+<link rel="image_src" href="{{@blog.url}}{{img_url}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{img_url}}"/>
 {{else}}
-{{#if @blog.cover}}
-<meta property="og:image" content="{{@blog.url}}{{@blog.cover}}"/>
-<link rel="image_src" href="{{@blog.url}}{{@blog.cover}}"/>
-<meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
+{{#if @site.cover_image}}
+<meta property="og:image" content="{{@blog.url}}{{@site.cover_image}}"/>
+<link rel="image_src" href="{{@blog.url}}{{@site.cover_image}}"/>
+<meta itemprop="image" content="{{@blog.url}}{{@site.cover_image}}"/>
 {{/if}}
 {{/if}}
 {{/post}}

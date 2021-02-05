@@ -93,8 +93,7 @@ video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Ubuntu Mono', Monospace, sans-serif;
-    text-align: center;
+    font-family: 'IBM Plex Sans', 'Open Sans', sans-serif;
     font: inherit;
     vertical-align: baseline
 }
@@ -161,6 +160,13 @@ video {
 a:hover,
 a:active {
     outline: 0
+}
+
+figcaption {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu Mono', Monospace, sans-serif;
+    text-align: center;
 }
 
 h1 {

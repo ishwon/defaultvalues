@@ -977,6 +977,7 @@ a.symbol {
     background: #076351;
     color: #fff;
     text-align: center;
+    line-height: 1.5;
     font-weight: 300;
     font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 15px 0px;

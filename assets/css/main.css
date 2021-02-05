@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
 * {
     box-sizing: border-box
 }
@@ -85,10 +88,11 @@ mark,
 audio,
 video {
     margin: 0;
+    margin-bottom: 1px;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu Mono', Monospace, 'Courier New', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font: inherit;
     vertical-align: baseline
 }
@@ -212,7 +216,7 @@ h3,
 h4 {
     text-rendering: optimizeLegibility;
     margin-bottom: 1.5px;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -315,7 +319,7 @@ hr {
 
 html,
 :root {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     text-rendering: optimizeLegibility
@@ -415,7 +419,7 @@ em {
 
 body {
     background: #efefef;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     border-top: 2.5px solid #0da688
 }
 
@@ -542,7 +546,7 @@ header .header_nav li:last-child {
 .description .description__text {
     margin: 10px 0px;
     margin: 0.625rem 0rem;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     text-align: center
@@ -571,7 +575,7 @@ header .header_nav li:last-child {
 .author .author__bio,
 .author .author__title,
 .author .author__meta {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     font-weight: 300;
@@ -609,7 +613,7 @@ header .header_nav li:last-child {
 
 .post__title a {
     color: #333;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-size: 1.875rem;
     margin-bottom: 15px;
@@ -630,7 +634,7 @@ header .header_nav li:last-child {
 .post .post-content ol .post__meta li,
 .post__meta .post .post-content ul li,
 .post .post-content ul .post__meta li {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     color: #060606;
@@ -656,14 +660,14 @@ header .header_nav li:last-child {
 .post .post-content ol .post__excerpt li,
 .post__excerpt .post .post-content ul li,
 .post .post-content ul .post__excerpt li {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #060606;
     font-size: 16px;
     font-size: 1rem
 }
 
 .post__excerpt .read-more {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     text-decoration: none;
@@ -676,7 +680,7 @@ header .header_nav li:last-child {
 .post .post-content h4,
 .post .post-content h5,
 .post .post-content h6 {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-bottom: 18px;
     margin-bottom: 1.125rem
@@ -690,7 +694,7 @@ header .header_nav li:last-child {
 .post .post-content p,
 .post .post-content ol li,
 .post .post-content ul li {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     font-weight: 400;
@@ -745,7 +749,7 @@ header .header_nav li:last-child {
 .post .post-content ol blockquote li,
 .post .post-content blockquote ul li,
 .post .post-content ul blockquote li {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 20px;
@@ -775,7 +779,7 @@ pre {
     padding-left: 10px;
     padding-left: 0.625rem;
     display: block;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 25px;
     line-height: 1.5625rem;
     font-size: 14px;
@@ -816,7 +820,7 @@ code {
 .older-posts,
 .newer-posts {
     background: transparent;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-size: 0.75rem;
     border: 1px solid #0da688;
@@ -856,7 +860,7 @@ code {
 }
 
 .tag__header h1 {
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #060606;
     font-size: 30px;
@@ -885,7 +889,7 @@ code {
     line-height: 1.5625rem;
     color: #fff;
     text-align: center;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: italic
 }
@@ -965,7 +969,7 @@ a.symbol {
     color: #fff;
     text-align: center;
     font-weight: 300;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 15px 0px;
     padding: 0.9375rem 0rem
 }
@@ -976,7 +980,7 @@ a.symbol {
 .footer .post .post-content ul li,
 .post .post-content ul .footer li {
     color: #fff;
-    font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .footer a.socials {

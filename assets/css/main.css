@@ -162,6 +162,10 @@ a:active {
     outline: 0
 }
 
+blockquote {
+    font-family: 'IBM Plex Serif', sans-serif;
+}
+
 figcaption {
     margin-top: 8px;
     margin-bottom: 10px;

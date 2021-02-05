@@ -12,6 +12,9 @@
                 <p>Posted by {{#primary_author}}<a href="{{url}}">{{name}}</a>{{/primary_author}} on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}} 
             </section>
             <section class="post-content">
+
+                {{#if feature_image}}<img src="{{feature_image}}" />{{/if}}
+                {{#if excerpt}}<blockquote>{{excerpt}}</blockquote>{{/if}}
                 {{content}}
             </section>
         <section class="socials">

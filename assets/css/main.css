@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 
 * {
     box-sizing: border-box
@@ -92,7 +93,8 @@ video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Ubuntu Mono', Monospace, 'Courier New', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu Mono', Monospace, sans-serif;
+    text-align: center;
     font: inherit;
     vertical-align: baseline
 }
@@ -779,7 +781,7 @@ pre {
     padding-left: 10px;
     padding-left: 0.625rem;
     display: block;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu Mono', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 25px;
     line-height: 1.5625rem;
     font-size: 14px;
@@ -799,7 +801,7 @@ pre {
 }
 
 code {
-    font-family: "Courier New";
+    font-family: "Ubuntu Mono";
     background: #efefef;
     line-height: 25px;
     line-height: 1.5625rem;

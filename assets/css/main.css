@@ -164,6 +164,7 @@ a:active {
 
 blockquote {
     font-family: 'IBM Plex Serif', sans-serif;
+    line-height: 1.5
 }
 
 figcaption {
@@ -778,8 +779,7 @@ header .header_nav li:last-child {
 }
 
 .post .post-content img {
-    padding: 2.5px;
-    padding: 0.15625rem
+    margin-bottom: 15px
 }
 
 pre {

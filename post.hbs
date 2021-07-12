@@ -12,9 +12,10 @@
             </section>
             <section class="post-content">
 
+                {{#if excerpt}}<blockquote>{{excerpt}}</blockquote>{{/if}}
                 {{#if feature_image}}<img src="{{feature_image}}" alt="{{feature_image_alt}}"/>{{/if}}
                 {{#if feature_image_caption}}<div class="feature_image_caption">{{feature_image_caption}}</div>{{/if}}
-                {{#if excerpt}}<blockquote>{{excerpt}}</blockquote>{{/if}}
+                
                 {{content}}
             </section>
         <section class="socials">

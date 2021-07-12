@@ -175,10 +175,9 @@ figcaption {
 }
 
 .feature_image_caption {
-    margin-top: 8px;
+    margin-top: 6px;
     margin-bottom: 10px;
     font-family: 'Ubuntu Mono', Monospace, sans-serif;
-    text-align: center;
 }
 
 h1 {

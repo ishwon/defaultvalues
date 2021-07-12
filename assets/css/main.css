@@ -174,7 +174,7 @@ figcaption {
     text-align: center;
 }
 
-feature_image_caption {
+.feature_image_caption {
     margin-top: 8px;
     margin-bottom: 10px;
     font-family: 'Ubuntu Mono', Monospace, sans-serif;

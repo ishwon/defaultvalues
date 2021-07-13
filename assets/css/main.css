@@ -714,7 +714,7 @@ header .header_nav li:last-child {
 .post .post-content p,
 .post .post-content ol li,
 .post .post-content ul li {
-    font-family: 'Gentium Book Basic',, 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-size: 1.25rem;
     font-weight: 400;

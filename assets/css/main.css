@@ -164,7 +164,7 @@ a:active {
 }
 
 blockquote {
-    font-family: 'IBM Plex Serif', sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Serif', sans-serif;
     line-height: 1.5
 }
 
@@ -236,7 +236,7 @@ h3,
 h4 {
     text-rendering: optimizeLegibility;
     margin-bottom: 1.5px;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -566,7 +566,7 @@ header .header_nav li:last-child {
 .description .description__text {
     margin: 10px 0px;
     margin: 0.625rem 0rem;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     text-align: center
@@ -595,7 +595,7 @@ header .header_nav li:last-child {
 .author .author__bio,
 .author .author__title,
 .author .author__meta {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     font-weight: 300;
@@ -682,14 +682,14 @@ header .header_nav li:last-child {
 .post .post-content ul .post__excerpt li {
     font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #060606;
-    font-size: 16px;
-    font-size: 1rem
+    font-size: 20px;
+    font-size: 1.25rem
 }
 
 .post__excerpt .read-more {
     font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     color: #0da688
 }
@@ -715,8 +715,8 @@ header .header_nav li:last-child {
 .post .post-content ol li,
 .post .post-content ul li {
     font-family: 'Gentium Book Basic',, 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #060606;
     margin-bottom: 15px;
@@ -772,8 +772,8 @@ header .header_nav li:last-child {
     font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 20px;
-    margin-bottom: 1.25rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     font-size: 14px;
     font-size: 0.875rem;
     color: #060606
@@ -837,8 +837,8 @@ code {
 .newer-posts {
     background: transparent;
     font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 16px;
+    font-size: 1rem;
     border: 1px solid #0da688;
     border-radius: 20px;
     display: inline-block;

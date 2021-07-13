@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
 
 * {
     box-sizing: border-box
@@ -438,7 +439,7 @@ em {
 
 body {
     background: #efefef;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     border-top: 2.5px solid #0da688
 }
 
@@ -632,7 +633,7 @@ header .header_nav li:last-child {
 
 .post__title a {
     color: #333;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-size: 1.875rem;
     margin-bottom: 15px;
@@ -653,7 +654,7 @@ header .header_nav li:last-child {
 .post .post-content ol .post__meta li,
 .post__meta .post .post-content ul li,
 .post .post-content ul .post__meta li {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     color: #060606;
@@ -679,14 +680,14 @@ header .header_nav li:last-child {
 .post .post-content ol .post__excerpt li,
 .post__excerpt .post .post-content ul li,
 .post .post-content ul .post__excerpt li {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #060606;
     font-size: 16px;
     font-size: 1rem
 }
 
 .post__excerpt .read-more {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     text-decoration: none;
@@ -699,7 +700,7 @@ header .header_nav li:last-child {
 .post .post-content h4,
 .post .post-content h5,
 .post .post-content h6 {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-bottom: 18px;
     margin-bottom: 1.125rem
@@ -713,7 +714,7 @@ header .header_nav li:last-child {
 .post .post-content p,
 .post .post-content ol li,
 .post .post-content ul li {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic',, 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-size: 1rem;
     font-weight: 400;
@@ -768,7 +769,7 @@ header .header_nav li:last-child {
 .post .post-content ol blockquote li,
 .post .post-content blockquote ul li,
 .post .post-content ul blockquote li {
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 20px;
@@ -835,7 +836,7 @@ code {
 .older-posts,
 .newer-posts {
     background: transparent;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-size: 0.75rem;
     border: 1px solid #0da688;
@@ -904,7 +905,7 @@ code {
     line-height: 1.5625rem;
     color: #fff;
     text-align: center;
-    font-family: 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gentium Book Basic', 'IBM Plex Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: italic
 }
